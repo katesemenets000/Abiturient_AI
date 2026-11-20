@@ -1,0 +1,103 @@
+﻿model,test_id,type,expected,predicted,exact_match,missing_clusters,extra_clusters,precision,recall,f1,needs_clarification
+GigaChat-2,1,direct,K1,"K1, K2",False,,K2,0.5,1.0,0.6666666666666666,False
+GigaChat-2,2,direct,K1,"K1, K2",False,,K2,0.5,1.0,0.6666666666666666,False
+GigaChat-2,3,direct,K2,K2,True,,,1.0,1.0,1.0,False
+GigaChat-2,4,direct,K2,K2,True,,,1.0,1.0,1.0,False
+GigaChat-2,5,direct,K3,K3,True,,,1.0,1.0,1.0,False
+GigaChat-2,6,direct,K3,K3,True,,,1.0,1.0,1.0,False
+GigaChat-2,7,direct,K4,K4,True,,,1.0,1.0,1.0,False
+GigaChat-2,8,direct,K4,K4,True,,,1.0,1.0,1.0,False
+GigaChat-2,9,direct,K5,K5,True,,,1.0,1.0,1.0,False
+GigaChat-2,10,direct,K5,K5,True,,,1.0,1.0,1.0,False
+GigaChat-2,11,direct,K6,"K5, K6",False,,K5,0.5,1.0,0.6666666666666666,False
+GigaChat-2,12,direct,K6,"K5, K6",False,,K5,0.5,1.0,0.6666666666666666,False
+GigaChat-2,13,direct,K7,K7,True,,,1.0,1.0,1.0,False
+GigaChat-2,14,direct,K7,K7,True,,,1.0,1.0,1.0,False
+GigaChat-2,15,direct,K8,K8,True,,,1.0,1.0,1.0,False
+GigaChat-2,16,direct,K8,K8,True,,,1.0,1.0,1.0,False
+GigaChat-2,17,direct,K9,K9,True,,,1.0,1.0,1.0,False
+GigaChat-2,18,direct,K9,K9,True,,,1.0,1.0,1.0,False
+GigaChat-2,19,direct,K10,K10,True,,,1.0,1.0,1.0,False
+GigaChat-2,20,direct,K10,K10,True,,,1.0,1.0,1.0,False
+GigaChat-2,21,direct,K11,K11,True,,,1.0,1.0,1.0,False
+GigaChat-2,22,direct,K11,K11,True,,,1.0,1.0,1.0,False
+GigaChat-2,23,direct,K12,K12,True,,,1.0,1.0,1.0,False
+GigaChat-2,24,direct,K12,K12,True,,,1.0,1.0,1.0,False
+GigaChat-2,25,complex,"K1, K2",K2,False,K1,,1.0,0.5,0.6666666666666666,False
+GigaChat-2,26,complex,K11,K11,True,,,1.0,1.0,1.0,False
+GigaChat-2,27,complex,"K7, K8","K7, K8",True,,,1.0,1.0,1.0,False
+GigaChat-2,28,complex,"K5, K6","K5, K6",True,,,1.0,1.0,1.0,False
+GigaChat-2,29,ambiguous,,,True,,,,,,True
+GigaChat-2,30,ambiguous,,,True,,,,,,True
+GigaChat-2,31,ambiguous,,,True,,,,,,True
+GigaChat-2,32,invalid,,,True,,,,,,True
+GigaChat-2,33,invalid,,,True,,,,,,True
+GigaChat-2,34,invalid,,,True,,,,,,True
+GigaChat-2-Pro,1,direct,K1,,False,K1,,0,0.0,0,False
+GigaChat-2-Pro,2,direct,K1,,False,K1,,0,0.0,0,False
+GigaChat-2-Pro,3,direct,K2,,False,K2,,0,0.0,0,False
+GigaChat-2-Pro,4,direct,K2,,False,K2,,0,0.0,0,False
+GigaChat-2-Pro,5,direct,K3,,False,K3,,0,0.0,0,False
+GigaChat-2-Pro,6,direct,K3,,False,K3,,0,0.0,0,False
+GigaChat-2-Pro,7,direct,K4,,False,K4,,0,0.0,0,False
+GigaChat-2-Pro,8,direct,K4,K4,True,,,1.0,1.0,1.0,False
+GigaChat-2-Pro,9,direct,K5,,False,K5,,0,0.0,0,False
+GigaChat-2-Pro,10,direct,K5,,False,K5,,0,0.0,0,False
+GigaChat-2-Pro,11,direct,K6,,False,K6,,0,0.0,0,False
+GigaChat-2-Pro,12,direct,K6,,False,K6,,0,0.0,0,False
+GigaChat-2-Pro,13,direct,K7,,False,K7,,0,0.0,0,False
+GigaChat-2-Pro,14,direct,K7,,False,K7,,0,0.0,0,False
+GigaChat-2-Pro,15,direct,K8,,False,K8,,0,0.0,0,False
+GigaChat-2-Pro,16,direct,K8,,False,K8,,0,0.0,0,False
+GigaChat-2-Pro,17,direct,K9,,False,K9,,0,0.0,0,False
+GigaChat-2-Pro,18,direct,K9,,False,K9,,0,0.0,0,False
+GigaChat-2-Pro,19,direct,K10,,False,K10,,0,0.0,0,False
+GigaChat-2-Pro,20,direct,K10,,False,K10,,0,0.0,0,False
+GigaChat-2-Pro,21,direct,K11,,False,K11,,0,0.0,0,False
+GigaChat-2-Pro,22,direct,K11,,False,K11,,0,0.0,0,False
+GigaChat-2-Pro,23,direct,K12,,False,K12,,0,0.0,0,False
+GigaChat-2-Pro,24,direct,K12,,False,K12,,0,0.0,0,False
+GigaChat-2-Pro,25,complex,"K1, K2",,False,"K1, K2",,0,0.0,0,False
+GigaChat-2-Pro,26,complex,K11,,False,K11,,0,0.0,0,False
+GigaChat-2-Pro,27,complex,"K7, K8",,False,"K7, K8",,0,0.0,0,False
+GigaChat-2-Pro,28,complex,"K5, K6",,False,"K5, K6",,0,0.0,0,False
+GigaChat-2-Pro,29,ambiguous,,,True,,,,,,True
+GigaChat-2-Pro,30,ambiguous,,,True,,,,,,True
+GigaChat-2-Pro,31,ambiguous,,,True,,,,,,True
+GigaChat-2-Pro,32,invalid,,,True,,,,,,True
+GigaChat-2-Pro,33,invalid,,,True,,,,,,True
+GigaChat-2-Pro,34,invalid,,,True,,,,,,True
+GigaChat-3-Pro,1,direct,K1,K1,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,2,direct,K1,K1,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,3,direct,K2,K2,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,4,direct,K2,K2,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,5,direct,K3,K3,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,6,direct,K3,K3,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,7,direct,K4,K4,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,8,direct,K4,K4,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,9,direct,K5,K5,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,10,direct,K5,K5,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,11,direct,K6,K6,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,12,direct,K6,K6,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,13,direct,K7,K7,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,14,direct,K7,K7,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,15,direct,K8,K8,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,16,direct,K8,K8,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,17,direct,K9,K9,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,18,direct,K9,K9,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,19,direct,K10,K10,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,20,direct,K10,K10,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,21,direct,K11,K11,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,22,direct,K11,K11,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,23,direct,K12,K12,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,24,direct,K12,K12,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,25,complex,"K1, K2",K2,False,K1,,1.0,0.5,0.6666666666666666,False
+GigaChat-3-Pro,26,complex,K11,K11,True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,27,complex,"K7, K8",K7,False,K8,,1.0,0.5,0.6666666666666666,False
+GigaChat-3-Pro,28,complex,"K5, K6","K5, K6",True,,,1.0,1.0,1.0,False
+GigaChat-3-Pro,29,ambiguous,,,True,,,,,,True
+GigaChat-3-Pro,30,ambiguous,,,True,,,,,,True
+GigaChat-3-Pro,31,ambiguous,,,True,,,,,,True
+GigaChat-3-Pro,32,invalid,,,True,,,,,,True
+GigaChat-3-Pro,33,invalid,,,True,,,,,,True
+GigaChat-3-Pro,34,invalid,,,True,,,,,,True

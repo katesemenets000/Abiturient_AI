@@ -1,0 +1,4 @@
+﻿model,total_tests,exact_matches,exact_accuracy_percent,direct_tests,direct_exact_accuracy_percent,average_precision,average_recall,average_f1,missing_clusters,extra_clusters
+GigaChat-2,34,29,85.29,24,83.33,0.929,0.982,0.94,1,4
+GigaChat-2-Pro,34,7,20.59,24,4.17,0.036,0.036,0.036,30,0
+GigaChat-3-Pro,34,32,94.12,24,100.0,1.0,0.964,0.976,2,0
